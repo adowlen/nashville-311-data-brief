@@ -1,0 +1,719 @@
+{
+ "dataset": "hubNashville 311 Service Requests (hubNashville_(311)_Service_Requests_1, layer 0), full-series service; analysis population = requests opened in calendar 2025 (America/Chicago)",
+ "snapshot_date": "2026-11-08",
+ "rows_2025": 248066,
+ "full_series_rows_live_2026_11_08": 2120937,
+ "yearly_opened_counts_chicago": {
+  "2017": 30196,
+  "2018": 82991,
+  "2019": 155426,
+  "2020": 239784,
+  "2021": 317027,
+  "2022": 260797,
+  "2023": 272959,
+  "2024": 277019,
+  "2025": 248066,
+  "2026_partial_to_snapshot": 236672
+ },
+ "status_counter": {
+  "Closed": 240390,
+  "Assigned": 3436,
+  "New": 2366,
+  "In Progress": 936,
+  "PENDING": 462,
+  "Transferred": 282,
+  "ENGINEERING REVIEW": 99,
+  "COMPLETE": 46,
+  "PENDING WO COMPLETION": 30,
+  "TRANSFER": 5,
+  "Active": 5,
+  "Regret": 3,
+  "CANCEL": 2,
+  "Accept": 2,
+  "Canceled": 2
+ },
+ "type_counter": {
+  "Resolved by hubNashville on First Call": 78753,
+  "Public Safety": 52799,
+  "Trash, Recycling & Litter": 51551,
+  "Streets, Roads & Sidewalks": 25146,
+  "Property Violations": 22622,
+  "Other Metro Services and Forms": 4275,
+  "Public Works WO": 4069,
+  "Public_Works_WO": 2686,
+  "Electric & Water General": 1968,
+  "Parks and Environment": 1760,
+  "Transit": 1306,
+  "Permits": 864,
+  "Parks": 150,
+  "Planning and Zoning": 63,
+  "Other": 38,
+  "Planning & Zoning": 13,
+  "COVID-19": 3
+ },
+ "origin_counter": {
+  "": 248066
+ },
+ "closed": {
+  "with_closed_date": 240397,
+  "without_closed_date": 7669,
+  "negative_gap": 0,
+  "nonneg": 240397,
+  "same_day_n": 149842,
+  "same_day_pct": 62.3,
+  "median_days": 0,
+  "p90_days": 9,
+  "max_days": 621,
+  "within_1d_pct": 70.9,
+  "within_7d_pct": 88.3,
+  "over_30d_n": 10131,
+  "over_30d_pct": 4.2,
+  "over_90d_n": 2930
+ },
+ "per_day_2025": 679.6,
+ "by_type": {
+  "Property Violations": {
+   "n": 22622,
+   "share_pct": 9.1,
+   "closed_nonneg": 20564,
+   "same_day_pct": 19.5,
+   "median_days": 6.0,
+   "p90_days": 64,
+   "over_30d_pct": 21.1,
+   "over_30d_n": 4343
+  },
+  "Public Safety": {
+   "n": 52799,
+   "share_pct": 21.3,
+   "closed_nonneg": 52297,
+   "same_day_pct": 86.2,
+   "median_days": 0,
+   "p90_days": 1,
+   "over_30d_pct": 1.0
+  },
+  "Trash, Recycling & Litter": {
+   "n": 51551,
+   "share_pct": 20.8,
+   "closed_nonneg": 51498,
+   "same_day_pct": 13.9,
+   "median_days": 3.0,
+   "p90_days": 14,
+   "over_30d_pct": 4.7
+  },
+  "Streets, Roads & Sidewalks": {
+   "n": 25146,
+   "share_pct": 10.1,
+   "closed_nonneg": 24833,
+   "same_day_pct": 32.1,
+   "median_days": 1,
+   "p90_days": 23,
+   "over_30d_pct": 8.2
+  },
+  "Public_Works_WO": {
+   "n": 2686,
+   "share_pct": 1.1,
+   "closed_nonneg": 95,
+   "same_day_pct": 93.7,
+   "median_days": 0,
+   "p90_days": 0,
+   "over_30d_pct": 0.0
+  },
+  "Parks": {
+   "n": 150,
+   "share_pct": 0.1,
+   "closed_nonneg": 110,
+   "same_day_pct": 11.8,
+   "median_days": 6.0,
+   "p90_days": 44,
+   "over_30d_pct": 13.6
+  },
+  "Public Works WO": {
+   "n": 4069,
+   "share_pct": 1.6,
+   "closed_nonneg": 3407,
+   "same_day_pct": 36.0,
+   "median_days": 1,
+   "p90_days": 8,
+   "over_30d_pct": 0.8
+  },
+  "Electric & Water General": {
+   "n": 1968,
+   "share_pct": 0.8,
+   "closed_nonneg": 950,
+   "same_day_pct": 18.7,
+   "median_days": 9.5,
+   "p90_days": 176,
+   "over_30d_pct": 37.6
+  },
+  "Resolved by hubNashville on First Call": {
+   "n": 78753,
+   "share_pct": 31.7,
+   "closed_nonneg": 78752,
+   "same_day_pct": 100.0,
+   "median_days": 0.0,
+   "p90_days": 0,
+   "over_30d_pct": 0.0
+  },
+  "Transit": {
+   "n": 1306,
+   "share_pct": 0.5,
+   "closed_nonneg": 1281,
+   "same_day_pct": 72.6,
+   "median_days": 0,
+   "p90_days": 6,
+   "over_30d_pct": 1.9
+  },
+  "Planning & Zoning": {
+   "n": 13,
+   "share_pct": 0.0,
+   "closed_nonneg": 13,
+   "same_day_pct": 15.4,
+   "median_days": 8,
+   "p90_days": 22,
+   "over_30d_pct": 0.0
+  },
+  "Other Metro Services and Forms": {
+   "n": 4275,
+   "share_pct": 1.7,
+   "closed_nonneg": 4137,
+   "same_day_pct": 93.0,
+   "median_days": 0,
+   "p90_days": 0,
+   "over_30d_pct": 0.7
+  },
+  "Permits": {
+   "n": 864,
+   "share_pct": 0.3,
+   "closed_nonneg": 834,
+   "same_day_pct": 58.9,
+   "median_days": 0.0,
+   "p90_days": 9,
+   "over_30d_pct": 3.4
+  },
+  "Parks and Environment": {
+   "n": 1760,
+   "share_pct": 0.7,
+   "closed_nonneg": 1528,
+   "same_day_pct": 6.2,
+   "median_days": 7.0,
+   "p90_days": 66,
+   "over_30d_pct": 19.2
+  },
+  "Planning and Zoning": {
+   "n": 63,
+   "share_pct": 0.0,
+   "closed_nonneg": 62,
+   "same_day_pct": 12.9,
+   "median_days": 20.0,
+   "p90_days": 123,
+   "over_30d_pct": 43.5
+  },
+  "Other": {
+   "n": 38,
+   "share_pct": 0.0,
+   "closed_nonneg": 36,
+   "same_day_pct": 94.4,
+   "median_days": 0.0,
+   "p90_days": 0,
+   "over_30d_pct": 2.8
+  },
+  "COVID-19": {
+   "n": 3,
+   "share_pct": 0.0,
+   "closed_nonneg": 0,
+   "same_day_pct": null,
+   "median_days": null,
+   "p90_days": null,
+   "over_30d_pct": null
+  }
+ },
+ "subrequest_top25": {
+  "Resolved by hubNashville on First Call": 78753,
+  "Control Number Request for Towing": 26277,
+  "Cart Service": 17244,
+  "Missed Pickup - Trash Cart Service": 13564,
+  "Missed Pickup - Recycle Cart Service": 10560,
+  "Request Non-Emergency Police Assistance": 7880,
+  "Repossessed Vehicle": 5923,
+  "Noise Violations": 5534,
+  "Improperly Parked Vehicles": 5049,
+  "Noise Violations - Construction Noise": 4480,
+  "Junk and Debris": 4396,
+  "Clerk - Do Not Knock Registry": 3664,
+  "Tall Grass and Weeds": 3612,
+  "File a Trash or Recycling Complaint": 3458,
+  "Residential Complaint": 3138,
+  "Traffic Light Issue": 2956,
+  "Abandoned Vehicles": 2681,
+  "Dead Animal Pickup": 2662,
+  "Missing Trash Cart": 2272,
+  "Damaged Sign": 2201,
+  "Shared Scooter and Bike Issues": 2128,
+  "Unwanted Recycling or Trash": 1968,
+  "Maintenance Request": 1725,
+  "Tree Maintenance on right of way": 1670,
+  "Overgrowth on right of way": 1558
+ },
+ "by_district": {
+  "1": {
+   "n": 4637,
+   "share_pct": 2.7,
+   "closed_nonneg": 4401,
+   "same_day_pct": 44.2,
+   "median_days": 1,
+   "p90_days": 21
+  },
+  "2": {
+   "n": 5934,
+   "share_pct": 3.5,
+   "closed_nonneg": 5713,
+   "same_day_pct": 47.1,
+   "median_days": 1,
+   "p90_days": 15
+  },
+  "3": {
+   "n": 5052,
+   "share_pct": 3.0,
+   "closed_nonneg": 4829,
+   "same_day_pct": 45.0,
+   "median_days": 1,
+   "p90_days": 19
+  },
+  "4": {
+   "n": 2774,
+   "share_pct": 1.6,
+   "closed_nonneg": 2671,
+   "same_day_pct": 40.9,
+   "median_days": 1,
+   "p90_days": 16
+  },
+  "5": {
+   "n": 7397,
+   "share_pct": 4.4,
+   "closed_nonneg": 7050,
+   "same_day_pct": 42.1,
+   "median_days": 1.0,
+   "p90_days": 17
+  },
+  "6": {
+   "n": 8161,
+   "share_pct": 4.8,
+   "closed_nonneg": 7828,
+   "same_day_pct": 41.5,
+   "median_days": 1.0,
+   "p90_days": 13
+  },
+  "7": {
+   "n": 5916,
+   "share_pct": 3.5,
+   "closed_nonneg": 5661,
+   "same_day_pct": 36.0,
+   "median_days": 1,
+   "p90_days": 18
+  },
+  "8": {
+   "n": 4420,
+   "share_pct": 2.6,
+   "closed_nonneg": 4249,
+   "same_day_pct": 38.0,
+   "median_days": 2,
+   "p90_days": 17
+  },
+  "9": {
+   "n": 3460,
+   "share_pct": 2.1,
+   "closed_nonneg": 3315,
+   "same_day_pct": 49.6,
+   "median_days": 1,
+   "p90_days": 21
+  },
+  "10": {
+   "n": 1718,
+   "share_pct": 1.0,
+   "closed_nonneg": 1659,
+   "same_day_pct": 67.9,
+   "median_days": 0,
+   "p90_days": 9
+  },
+  "11": {
+   "n": 2594,
+   "share_pct": 1.5,
+   "closed_nonneg": 2468,
+   "same_day_pct": 50.9,
+   "median_days": 0.0,
+   "p90_days": 27
+  },
+  "12": {
+   "n": 2169,
+   "share_pct": 1.3,
+   "closed_nonneg": 2105,
+   "same_day_pct": 66.1,
+   "median_days": 0,
+   "p90_days": 10
+  },
+  "13": {
+   "n": 3603,
+   "share_pct": 2.1,
+   "closed_nonneg": 3469,
+   "same_day_pct": 56.5,
+   "median_days": 0,
+   "p90_days": 16
+  },
+  "14": {
+   "n": 3295,
+   "share_pct": 2.0,
+   "closed_nonneg": 3167,
+   "same_day_pct": 59.6,
+   "median_days": 0,
+   "p90_days": 15
+  },
+  "15": {
+   "n": 7186,
+   "share_pct": 4.3,
+   "closed_nonneg": 6891,
+   "same_day_pct": 42.7,
+   "median_days": 1,
+   "p90_days": 15
+  },
+  "16": {
+   "n": 5943,
+   "share_pct": 3.5,
+   "closed_nonneg": 5681,
+   "same_day_pct": 40.7,
+   "median_days": 1,
+   "p90_days": 24
+  },
+  "17": {
+   "n": 11923,
+   "share_pct": 7.1,
+   "closed_nonneg": 11127,
+   "same_day_pct": 38.7,
+   "median_days": 1,
+   "p90_days": 20
+  },
+  "18": {
+   "n": 4355,
+   "share_pct": 2.6,
+   "closed_nonneg": 4106,
+   "same_day_pct": 35.6,
+   "median_days": 1.0,
+   "p90_days": 20
+  },
+  "19": {
+   "n": 14068,
+   "share_pct": 8.3,
+   "closed_nonneg": 13577,
+   "same_day_pct": 59.8,
+   "median_days": 0,
+   "p90_days": 8
+  },
+  "20": {
+   "n": 5969,
+   "share_pct": 3.5,
+   "closed_nonneg": 5703,
+   "same_day_pct": 36.2,
+   "median_days": 1,
+   "p90_days": 16
+  },
+  "21": {
+   "n": 5917,
+   "share_pct": 3.5,
+   "closed_nonneg": 5666,
+   "same_day_pct": 32.6,
+   "median_days": 2.0,
+   "p90_days": 36
+  },
+  "22": {
+   "n": 1807,
+   "share_pct": 1.1,
+   "closed_nonneg": 1738,
+   "same_day_pct": 52.5,
+   "median_days": 0.0,
+   "p90_days": 22
+  },
+  "23": {
+   "n": 3928,
+   "share_pct": 2.3,
+   "closed_nonneg": 3693,
+   "same_day_pct": 33.7,
+   "median_days": 1,
+   "p90_days": 12
+  },
+  "24": {
+   "n": 7007,
+   "share_pct": 4.2,
+   "closed_nonneg": 6674,
+   "same_day_pct": 25.7,
+   "median_days": 2.0,
+   "p90_days": 15
+  },
+  "25": {
+   "n": 4040,
+   "share_pct": 2.4,
+   "closed_nonneg": 3839,
+   "same_day_pct": 36.8,
+   "median_days": 1,
+   "p90_days": 14
+  },
+  "26": {
+   "n": 4495,
+   "share_pct": 2.7,
+   "closed_nonneg": 4317,
+   "same_day_pct": 48.8,
+   "median_days": 1,
+   "p90_days": 11
+  },
+  "27": {
+   "n": 3823,
+   "share_pct": 2.3,
+   "closed_nonneg": 3652,
+   "same_day_pct": 39.5,
+   "median_days": 2.0,
+   "p90_days": 18
+  },
+  "28": {
+   "n": 4425,
+   "share_pct": 2.6,
+   "closed_nonneg": 4231,
+   "same_day_pct": 41.6,
+   "median_days": 1,
+   "p90_days": 18
+  },
+  "29": {
+   "n": 4149,
+   "share_pct": 2.5,
+   "closed_nonneg": 3958,
+   "same_day_pct": 40.2,
+   "median_days": 1.0,
+   "p90_days": 24
+  },
+  "30": {
+   "n": 3360,
+   "share_pct": 2.0,
+   "closed_nonneg": 3207,
+   "same_day_pct": 56.0,
+   "median_days": 0,
+   "p90_days": 28
+  },
+  "31": {
+   "n": 2902,
+   "share_pct": 1.7,
+   "closed_nonneg": 2774,
+   "same_day_pct": 51.2,
+   "median_days": 0.0,
+   "p90_days": 17
+  },
+  "32": {
+   "n": 3759,
+   "share_pct": 2.2,
+   "closed_nonneg": 3670,
+   "same_day_pct": 63.7,
+   "median_days": 0.0,
+   "p90_days": 8
+  },
+  "33": {
+   "n": 2813,
+   "share_pct": 1.7,
+   "closed_nonneg": 2715,
+   "same_day_pct": 52.2,
+   "median_days": 0,
+   "p90_days": 15
+  },
+  "34": {
+   "n": 3858,
+   "share_pct": 2.3,
+   "closed_nonneg": 3687,
+   "same_day_pct": 31.6,
+   "median_days": 2,
+   "p90_days": 15
+  },
+  "35": {
+   "n": 1783,
+   "share_pct": 1.1,
+   "closed_nonneg": 1722,
+   "same_day_pct": 51.1,
+   "median_days": 0.0,
+   "p90_days": 18
+  }
+ },
+ "district_missing": 79426,
+ "district_count": 35,
+ "district_median_count": 4149,
+ "by_origin": {
+  "": {
+   "n": 248066,
+   "median_days": 0,
+   "same_day_pct": 62.3
+  }
+ },
+ "monthly_2025": {
+  "2025-01": 18375,
+  "2025-02": 19283,
+  "2025-03": 21651,
+  "2025-04": 23772,
+  "2025-05": 22734,
+  "2025-06": 22141,
+  "2025-07": 22741,
+  "2025-08": 23207,
+  "2025-09": 20339,
+  "2025-10": 20488,
+  "2025-11": 16057,
+  "2025-12": 17278
+ },
+ "zip_top10": {
+  "": 79642,
+  "37013": 17540,
+  "37211": 15589,
+  "37203": 14537,
+  "37207": 11924,
+  "37209": 11822,
+  "37206": 10003,
+  "37214": 7681,
+  "37115": 7428,
+  "37208": 6862
+ },
+ "zip_blank": 79642,
+ "first_call": {
+  "opened": 78753,
+  "closed": 78752,
+  "same_day_pct": 100.0,
+  "median_days": 0.0,
+  "p90_days": 0,
+  "over_30d_pct": 0.0,
+  "over_30d_n": 0
+ },
+ "excluding_first_call": {
+  "opened": 169313,
+  "closed": 161645,
+  "same_day_pct": 44.0,
+  "median_days": 1,
+  "p90_days": 17,
+  "over_30d_pct": 6.3,
+  "over_30d_n": 10131
+ },
+ "top5_types_share_pct": 93.1,
+ "top5_types_n": 230871,
+ "unclosed_by_type": {
+  "Public_Works_WO": 2591,
+  "Property Violations": 2058,
+  "Electric & Water General": 1018,
+  "Public Works WO": 662,
+  "Public Safety": 502,
+  "Streets, Roads & Sidewalks": 313,
+  "Parks and Environment": 232,
+  "Other Metro Services and Forms": 138,
+  "Trash, Recycling & Litter": 53,
+  "Parks": 40,
+  "Permits": 30,
+  "Transit": 25,
+  "COVID-19": 3,
+  "Other": 2,
+  "Planning and Zoning": 1,
+  "Resolved by hubNashville on First Call": 1
+ },
+ "district_missing_by_type": {
+  "Resolved by hubNashville on First Call": {
+   "n": 78753,
+   "missing": 68610,
+   "missing_pct": 87.1
+  },
+  "Public Safety": {
+   "n": 52799,
+   "missing": 9367,
+   "missing_pct": 17.7
+  },
+  "Trash, Recycling & Litter": {
+   "n": 51551,
+   "missing": 193,
+   "missing_pct": 0.4
+  },
+  "Streets, Roads & Sidewalks": {
+   "n": 25146,
+   "missing": 259,
+   "missing_pct": 1.0
+  },
+  "Property Violations": {
+   "n": 22622,
+   "missing": 307,
+   "missing_pct": 1.4
+  },
+  "Other Metro Services and Forms": {
+   "n": 4275,
+   "missing": 60,
+   "missing_pct": 1.4
+  },
+  "Public Works WO": {
+   "n": 4069,
+   "missing": 0,
+   "missing_pct": 0.0
+  },
+  "Public_Works_WO": {
+   "n": 2686,
+   "missing": 0,
+   "missing_pct": 0.0
+  },
+  "Electric & Water General": {
+   "n": 1968,
+   "missing": 125,
+   "missing_pct": 6.4
+  },
+  "Parks and Environment": {
+   "n": 1760,
+   "missing": 9,
+   "missing_pct": 0.5
+  },
+  "Transit": {
+   "n": 1306,
+   "missing": 80,
+   "missing_pct": 6.1
+  },
+  "Permits": {
+   "n": 864,
+   "missing": 379,
+   "missing_pct": 43.9
+  },
+  "Parks": {
+   "n": 150,
+   "missing": 1,
+   "missing_pct": 0.7
+  },
+  "Planning and Zoning": {
+   "n": 63,
+   "missing": 0,
+   "missing_pct": 0.0
+  },
+  "Other": {
+   "n": 38,
+   "missing": 32,
+   "missing_pct": 84.2
+  },
+  "Planning & Zoning": {
+   "n": 13,
+   "missing": 1,
+   "missing_pct": 7.7
+  },
+  "COVID-19": {
+   "n": 3,
+   "missing": 3,
+   "missing_pct": 100.0
+  }
+ },
+ "district_extremes": {
+  "same_day_min": {
+   "district": "24",
+   "pct": 25.7
+  },
+  "same_day_max": {
+   "district": "10",
+   "pct": 67.9
+  },
+  "p90_max": {
+   "district": "21",
+   "days": 36
+  },
+  "largest": {
+   "district": "19",
+   "n": 14068
+  }
+ }
+}

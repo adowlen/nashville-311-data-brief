@@ -1,0 +1,2 @@
+21.1% of Nashville's closed property-violation 311 requests in 2025 took more than 30 days to close (4,343 of 20,564 closed property-violation requests)
+Source line: hubNashville 311 - 248,066 requests opened in 2025 | Machine Readable
