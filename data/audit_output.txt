@@ -1,0 +1,109 @@
+ROWS 248066
+COUNTER Status n_unique=15
+  'Closed': 240390
+  'Assigned': 3436
+  'New': 2366
+  'In Progress': 936
+  'PENDING': 462
+  'Transferred': 282
+  'ENGINEERING REVIEW': 99
+  'COMPLETE': 46
+  'PENDING WO COMPLETION': 30
+  'TRANSFER': 5
+  'Active': 5
+  'Regret': 3
+  'CANCEL': 2
+  'Accept': 2
+  'Canceled': 2
+COUNTER Request_Type n_unique=17
+  'Resolved by hubNashville on First Call': 78753
+  'Public Safety': 52799
+  'Trash, Recycling & Litter': 51551
+  'Streets, Roads & Sidewalks': 25146
+  'Property Violations': 22622
+  'Other Metro Services and Forms': 4275
+  'Public Works WO': 4069
+  'Public_Works_WO': 2686
+  'Electric & Water General': 1968
+  'Parks and Environment': 1760
+  'Transit': 1306
+  'Permits': 864
+  'Parks': 150
+  'Planning and Zoning': 63
+  'Other': 38
+  'Planning & Zoning': 13
+  'COVID-19': 3
+COUNTER Subrequest_Type n_unique=134
+  'Resolved by hubNashville on First Call': 78753
+  'Control Number Request for Towing': 26277
+  'Cart Service': 17244
+  'Missed Pickup - Trash Cart Service': 13564
+  'Missed Pickup - Recycle Cart Service': 10560
+  'Request Non-Emergency Police Assistance': 7880
+  'Repossessed Vehicle': 5923
+  'Noise Violations': 5534
+  'Improperly Parked Vehicles': 5049
+  'Noise Violations - Construction Noise': 4480
+  'Junk and Debris': 4396
+  'Clerk - Do Not Knock Registry': 3664
+  'Tall Grass and Weeds': 3612
+  'File a Trash or Recycling Complaint': 3458
+  'Residential Complaint': 3138
+  'Traffic Light Issue': 2956
+  'Abandoned Vehicles': 2681
+  'Dead Animal Pickup': 2662
+  'Missing Trash Cart': 2272
+  'Damaged Sign': 2201
+  'Shared Scooter and Bike Issues': 2128
+  'Unwanted Recycling or Trash': 1968
+  'Maintenance Request': 1725
+  'Tree Maintenance on right of way': 1670
+  'Overgrowth on right of way': 1558
+  'Sidewalks': 1557
+  'Request New Sign': 1523
+  'Brush Collection': 1438
+  'Roadwork Complaint': 1367
+  'Remove debris in roadway': 1263
+  'Litter': 1100
+  'State Routes': 1087
+  'Paving Request': 1086
+  'Obstruction of right of way': 1033
+  'Dilapidated Structures': 853
+  'Snow and Ice Removal': 787
+  'Narcotics/Prostitution/Loitering': 775
+  'Traffic Light Timing': 753
+  'Potholes': 707
+  'Other': 700
+  'Tenant Complaint': 677
+  'Blocking the Right of Way': 665
+  'Animal Welfare Concern': 584
+  'Home Occupation Reporting': 542
+  'Graffiti': 533
+  'Tree Concerns': 531
+  'Backdoor Trash or Recycle Waivers': 530
+  'Cart Violation': 520
+  'Remove Other': 495
+  'New Service/Activate Service': 482
+  'Extra Patrol Requests': 473
+  'Illegal Dumping': 466
+  'Check the Well-Being of a Person': 455
+  'Building Permits': 452
+  'Street Lighting': 406
+  'Water Outage': 396
+  'Curbing and Berms': 374
+  'Broken Fire Hydrant': 373
+  'Parking Permits': 351
+  'Sidewalk Vendor Complaint': 332
+  ... 74 more values, total tail rows 7047
+COUNTER Request_Origin n_unique=1
+  '': 248066
+COUNTER Council_District raw {'': 79426, '1': 4637, '10': 1718, '11': 2594, '12': 2169, '13': 3603, '14': 3295, '15': 7186, '16': 5943, '17': 11923, '18': 4355, '19': 14068, '2': 5934, '20': 5969, '21': 5917, '22': 1807, '23': 3928, '24': 7007, '25': 4040, '26': 4495, '27': 3823, '28': 4425, '29': 4149, '3': 5052, '30': 3360, '31': 2902, '32': 3759, '33': 2813, '34': 3858, '35': 1783, '4': 2774, '5': 7397, '6': 8161, '7': 5916, '8': 4420, '9': 3460}
+ZIP unique 43 blank 79642
+ZIP top15 [('', 79642), ('37013', 17540), ('37211', 15589), ('37203', 14537), ('37207', 11924), ('37209', 11822), ('37206', 10003), ('37214', 7681), ('37115', 7428), ('37208', 6862), ('37217', 6511), ('37210', 6360), ('37205', 6306), ('37215', 5689), ('37216', 5656)]
+OBJECTID unique 248066
+Request__ unique 248066 blank Request__ 0
+closed rows (Date_Time_Closed present) 240397 negative gap rows 0
+STATUS x HAS_CLOSED_DATE {('Accept', True): 2, ('Active', False): 5, ('Assigned', False): 3436, ('CANCEL', False): 2, ('COMPLETE', False): 46, ('Canceled', True): 2, ('Closed', True): 240390, ('ENGINEERING REVIEW', False): 99, ('In Progress', False): 936, ('New', False): 2366, ('PENDING WO COMPLETION', False): 30, ('PENDING', False): 462, ('Regret', True): 3, ('TRANSFER', False): 5, ('Transferred', False): 282}
+opened UTC hour census {0: 6106, 1: 5298, 2: 4591, 3: 3942, 4: 3158, 5: 2432, 6: 2035, 7: 1959, 8: 2086, 9: 1963, 10: 1949, 11: 3458, 12: 5885, 13: 16400, 14: 23270, 15: 22865, 16: 22366, 17: 22372, 18: 21929, 19: 19853, 20: 19164, 21: 17130, 22: 10683, 23: 7172}
+closed UTC hour census {0: 3923, 1: 2493, 2: 3370, 3: 2345, 4: 3031, 5: 2143, 6: 2346, 7: 1742, 8: 2083, 9: 1567, 10: 1796, 11: 2429, 12: 11424, 13: 11647, 14: 27580, 15: 17898, 16: 25449, 17: 17778, 18: 25718, 19: 15700, 20: 30594, 21: 12154, 22: 12420, 23: 2767}
+opened exactly UTC midnight 2

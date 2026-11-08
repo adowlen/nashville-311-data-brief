@@ -1,0 +1,96 @@
+{
+ "pass": 15,
+ "total": 15,
+ "checks": [
+  {
+   "check": "rows_2025",
+   "package": 248066,
+   "independent": 248066,
+   "pass": true
+  },
+  {
+   "check": "type_top1_n",
+   "package": 78753,
+   "independent": 78753,
+   "pass": true
+  },
+  {
+   "check": "closed_n",
+   "package": 240397,
+   "independent": 240397,
+   "pass": true
+  },
+  {
+   "check": "same_day_n",
+   "package": 149842,
+   "independent": 149842,
+   "pass": true
+  },
+  {
+   "check": "same_day_pct",
+   "package": 62.3,
+   "independent": 62.3,
+   "pass": true
+  },
+  {
+   "check": "median_days",
+   "package": 0,
+   "independent": 0.0,
+   "pass": true
+  },
+  {
+   "check": "over_30d_n",
+   "package": 10131,
+   "independent": 10131,
+   "pass": true
+  },
+  {
+   "check": "fieldwork_same_day_pct",
+   "package": 44.0,
+   "independent": 44.0,
+   "pass": true
+  },
+  {
+   "check": "fieldwork_median",
+   "package": 1,
+   "independent": 1.0,
+   "pass": true
+  },
+  {
+   "check": "pv_median",
+   "package": 6.0,
+   "independent": 6.0,
+   "pass": true
+  },
+  {
+   "check": "pv_over30_pct",
+   "package": 21.1,
+   "independent": 21.1,
+   "pass": true
+  },
+  {
+   "check": "district_missing",
+   "package": 79426,
+   "independent": 79426,
+   "pass": true
+  },
+  {
+   "check": "district_19_n",
+   "package": 14068,
+   "independent": 14068,
+   "pass": true
+  },
+  {
+   "check": "live_2025_count",
+   "package": 248066,
+   "independent": 248066,
+   "pass": true
+  },
+  {
+   "check": "live_full_count_matches_stats",
+   "package": 2120937,
+   "independent": 2120937,
+   "pass": true
+  }
+ ]
+}
